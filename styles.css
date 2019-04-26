@@ -14,16 +14,43 @@
     color: white;
     font-weight: bold;
     margin: 0rem;
-}
-
-.bttns {
-    display: inline-block;
+    font-size: 150%;
 }
 
 .btn {
     background-color: lightgrey;
     color: teal;
     border-color: lightgrey;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: white;
+    font-weight: bold;
+    background-color: teal;
+}
+
+#uno:active, #dos:active{
+    background-color: red;
+}
+
+#btnGroupDrop1:focus {
+    background-color: red;
+}
+
+.dropdown-menu {
+    background-color: lightgrey;
+}
+
+.dropdown-item {
+    color: teal;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    color:white;
+    font-weight: bold;
+    background-color: teal;
 }
 
 body {
