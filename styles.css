@@ -1,0 +1,31 @@
+.bar {
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 5%;
+    background-color: lightgrey;
+}
+
+.standout {
+    background-color: Teal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    color: white;
+    font-weight: bold;
+    margin: 0rem;
+}
+
+.bttns {
+    display: inline-block;
+}
+
+.btn {
+    background-color: lightgrey;
+    color: teal;
+    border-color: lightgrey;
+}
+
+body {
+    background-color: grey;
+}
