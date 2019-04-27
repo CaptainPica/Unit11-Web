@@ -80,6 +80,11 @@ hr {
     overflow: auto;
 }
 
+.butt {
+    background-color: lightgrey;
+    overflow: auto;
+}
+
 .side {
     background-color: lightgrey;
     margin-top: 10%;
