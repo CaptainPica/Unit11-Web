@@ -28,14 +28,21 @@
     color: white;
     font-weight: bold;
     background-color: teal;
+    border-color: lightgrey;
 }
 
-#uno:active, #dos:active{
-    background-color: red;
+#uno:active, #dos:active {
+    background-color: #367588;
+    border-color: #367588;
 }
 
 #btnGroupDrop1:focus {
-    background-color: red;
+    background-color: teal;
+    border-color: teal;
+}
+
+#btnGroupDrop1 {
+    margin-right: .5rem;
 }
 
 .dropdown-menu {
@@ -45,12 +52,17 @@
 .dropdown-item {
     color: teal;
     font-weight: bold;
+    text-align: center;
 }
 
 .dropdown-item:hover {
     color:white;
     font-weight: bold;
     background-color: teal;
+}
+
+.dropdown-item:active {
+    background-color: #367588;
 }
 
 body {
