@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LatVX</title>
+    <title>Home</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -38,8 +38,13 @@
                 </a>
             </div>
             <div class="btn-group mr-2" role="group" aria-label="Third group">
-                <a id="dos" role="button" class="btn btn-secondary" href="https://google.com" target=_blank>
+                <a id="dos" role="button" class="btn btn-secondary" href="data.html">
                     Data
+                </a>
+            </div>
+            <div class="btn-group mr-2" role="group" aria-label="Fourth group">
+                <a id="dos" role="button" class="btn btn-secondary" href="index.html">
+                    Home
                 </a>
             </div>
         </div>
@@ -47,11 +52,28 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 focus">
+            <div class="col-lg-12 focus rounded">
                 <h1>Summary: Latitude vs. X</h1>
                 <hr>
                 <p>
-                    
+                    <img id = "pic" src="graphs_info/Max_Temp.png" alt="Max Temp Demo Graph" height="30%" width="40%">
+                    <p id="beg">
+                        This site will detail the results of a project focused on analyzing the 
+                        weather and climate based off latitude.
+                    </p>
+                    <p>
+                        OpenWeatherMap API was used to create a dataset of weather and climate information from 
+                        565 cities selected randomly from around the globe. The data in that dataset is accesible for viewing on the data page.
+                    </p>
+                    <p>
+                        Using this dataset, Matplotlib was used to plot various aspects of climate 
+                        and weather vs. latitude. These various aspects were max temp, cloudiness, wind speed, and humidity.
+                        This site provides the plots created as part of this analysis, as wel as summations of the conclusions
+                        drawn.
+                    </p>
+                    <p>
+                        The graph in the upper left is provided as an example of the available graphs.
+                    </p>
                 </p>
             </div>
         </div>

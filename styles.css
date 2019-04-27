@@ -77,6 +77,23 @@ hr {
 .focus {
     background-color: lightgrey;
     margin-top: 10%;
+    overflow: auto;
+}
+
+.side {
+    background-color: lightgrey;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: lightgrey;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: teal;
 }
 
 h1 {
@@ -84,4 +101,26 @@ h1 {
     font-weight: bold;
     padding-top: 1.5rem;
     padding-bottom: .5rem;
+}
+
+h2 {
+    color: teal;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+#pic {
+    margin-right: 5%;
+    margin-top: 2%;
+    float: left;
+}
+
+#beg {
+    margin-top: 4%;
+}
+
+#disclaimer {
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
 }
