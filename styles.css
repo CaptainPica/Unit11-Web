@@ -68,3 +68,20 @@
 body {
     background-color: grey;
 }
+
+hr {
+    border-width: 3px;
+    color: grey;
+}
+
+.focus {
+    background-color: lightgrey;
+    margin-top: 10%;
+}
+
+h1 {
+    color: teal;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+}
