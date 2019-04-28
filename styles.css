@@ -1,9 +1,14 @@
 .bar {
     padding-bottom: 0%;
     padding-top: 0%;
-    padding-left: 5%;
+    padding-left: 2%;
     background-color: lightgrey;
 }
+
+/* .navbar-toggler {
+    color:green;
+    background-color: blue;
+} */
 
 .standout {
     background-color: Teal;
@@ -19,31 +24,40 @@
 
 .btn {
     background-color: lightgrey;
-    color: teal;
+    /* color: teal; */
     border-color: lightgrey;
     font-weight: bold;
 }
 
 .btn:hover {
-    color: white;
+    /* color: white; */
     font-weight: bold;
     background-color: teal;
     border-color: lightgrey;
 }
 
-#uno:active, #dos:active {
+#uno, #dos, #tres, #quatro{
+    color: teal;
+}
+
+#uno:hover, #dos:hover, #tres:hover, #quatro:hover{
+    color: white;
+}
+
+#uno:active, #dos:active, #tres:active {
     background-color: #367588;
     border-color: #367588;
 }
 
-#btnGroupDrop1:focus {
+#quatro:focus {
     background-color: teal;
     border-color: teal;
+    color:white;
 }
 
-#btnGroupDrop1 {
+/* #quatro {
     margin-right: .5rem;
-}
+} */
 
 .dropdown-menu {
     background-color: lightgrey;
@@ -75,9 +89,11 @@ hr {
 }
 
 .focus {
-    background-color: lightgrey;
-    margin-top: 10%;
-    overflow: auto;
+    margin-top: 9%;
+}
+
+.end {
+    margin-bottom: 9%;
 }
 
 .butt {
@@ -101,18 +117,20 @@ hr {
     background-color: teal;
 }
 
-h1 {
+.starboard {
+    margin-left: 2%;
+    margin-right:2%;
+}
+
+h1, h5 {
     color: teal;
     font-weight: bold;
     padding-top: 1.5rem;
     padding-bottom: .5rem;
 }
 
-h2 {
-    color: teal;
-    font-weight: bold;
-    padding-top: 1.5rem;
-    padding-bottom: .5rem;
+.clicky:hover {
+    text-decoration: none;
 }
 
 #pic {
