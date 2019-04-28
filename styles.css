@@ -5,10 +5,9 @@
     background-color: lightgrey;
 }
 
-/* .navbar-toggler {
-    color:green;
-    background-color: blue;
-} */
+.navbar-toggler {
+    background-color: white;
+}
 
 .standout {
     background-color: Teal;
@@ -22,26 +21,28 @@
     font-size: 150%;
 }
 
-.btn {
+/* .btn {
     background-color: lightgrey;
-    /* color: teal; */
+    color: teal;
     border-color: lightgrey;
     font-weight: bold;
-}
+} */
 
-.btn:hover {
-    /* color: white; */
+/* .btn:hover {
+    color: white;
     font-weight: bold;
     background-color: teal;
     border-color: lightgrey;
-}
+} */
 
 #uno, #dos, #tres, #quatro{
     color: teal;
+    font-weight: bold;
 }
 
 #uno:hover, #dos:hover, #tres:hover, #quatro:hover{
     color: white;
+    background-color: teal;
 }
 
 #uno:active, #dos:active, #tres:active {
@@ -55,13 +56,15 @@
     color:white;
 }
 
-/* #quatro {
-    margin-right: .5rem;
-} */
-
 .dropdown-menu {
+    border-color: teal;
+    margin-bottom:1rem;
     background-color: lightgrey;
 }
+
+/* #collapsingNavbar3 {
+    display: inline-flex;
+} */
 
 .dropdown-item {
     color: teal;
@@ -146,4 +149,45 @@ h1, h5 {
 #disclaimer {
     padding-top: .5rem;
     padding-bottom: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .bar {
+        background-color: teal;
+    }
+
+    #uno, #dos, #tres, #quatro{
+        color: white;
+    }
+    
+    #uno:hover, #dos:hover, #tres:hover, #quatro:hover{
+        color: white;
+        background-color: #367588;
+    }
+
+    #uno:active, #dos:active, #tres:active {
+        background-color: #367588;
+        border-color: #367588;
+    }
+    
+    #quatro:focus {
+        background-color: #367588;
+        border-color: #367588;
+    }
+    
+    .dropdown-menu {
+        border-color: white;
+        background-color: teal
+    }
+    .dropdown-item {
+        color: white;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #367588;
+    }
+    
+    .dropdown-item:active {
+        background-color: #367588;
+    }
 }
