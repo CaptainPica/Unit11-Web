@@ -101,6 +101,9 @@ hr {
 
 .butt {
     background-color: lightgrey;
+}
+
+.flow {
     overflow: auto;
 }
 
@@ -134,6 +137,11 @@ h1, h5 {
 
 .clicky:hover {
     text-decoration: none;
+}
+
+.wrap {
+    height: 50%;
+    width: 100%;
 }
 
 #pic {
@@ -189,5 +197,12 @@ h1, h5 {
     
     .dropdown-item:active {
         background-color: #367588;
+    }
+}
+
+@media (min-width:992px) {
+    .wrap {
+        padding-left:5%;
+        padding-right:5%;
     }
 }
